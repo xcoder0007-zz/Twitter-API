@@ -1,0 +1,23 @@
+{
+  "name": "Twitter-API",
+  "version": "1.0.0",
+  "description": "Real-Time Twitter Stream with Node and React.js",
+  "main": "server.js",
+  "repository": "https://github.com/haythamakl/Twitter-API.git",
+  "author": "Haytham akl <sc@dlmar.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./bin/dev"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-register": "^6.26.0",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0",
+    "http": "^0.0.0",
+    "mongoose": "^5.0.8",
+    "nodemon": "^1.17.1",
+    "ntwitter": "^0.5.0"
+  }
+}
